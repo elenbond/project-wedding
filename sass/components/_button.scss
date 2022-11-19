@@ -1,0 +1,35 @@
+.button{
+    font-family: 'Quicksand';
+    font-size: 18px;
+    line-height: 1.2;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: 1px solid #F7941E;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.button__header{
+    @media screen and (max-width: 480px), (min-width: 480px) {
+        width: 125px;
+        height: 35px;
+        font-size: 16px;
+        margin-right: 20px;
+    }
+    @media screen and (min-width: 768px) {
+        width: 140px;
+        height: 40px;
+        font-size: 18px;
+    }
+    @media screen and (min-width: 1200px) {
+        width: 150px;
+        height: 44px;
+    }
+}
+
+.butoon__menu{
+    width: 40px;
+    height: 40px;
+}
