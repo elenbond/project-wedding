@@ -1,8 +1,6 @@
 .logo {
     display: flex;
-    justify-content: space-between;
     margin-right: 20px;
-    margin-left: 80px;
     font-family: 'Homemade Apple';
     font-style: none;
     font-weight: 400;
@@ -10,4 +8,10 @@
     line-height: 2.17;
     align-items: center;
     // text-align: center;
+    @media screen and (min-width: 768px) {
+        margin-right: auto;
+    }
+    @media screen and (min-width: 1200px) {
+        margin-right: 150px;
+    }
 }
