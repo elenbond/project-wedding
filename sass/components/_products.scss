@@ -11,12 +11,12 @@
     padding-right: 135px;
 }
 .section__title{
-    font-family: map-get($fonts, 'second-text');
+    font-family: map-get($text, 'second-text');
     font-size: 32px;
     line-height: 1.19;
 }
 .section__subtitle{
-    font-family: map-get($fonts, 'second-text');
+    font-family: map-get($text, 'second-text');
     font-size: 18px;
     line-height: 1.3;
 }

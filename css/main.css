@@ -317,4 +317,22 @@ a {
   font-size: 20px;
   line-height: 1.4;
   margin-top: 23px;
+}
+
+.about__card {
+  padding: 0;
+  padding-left: 112px;
+  padding-right: 166px;
+  background-color: #F1F1F2;
+}
+.about__title {
+  font-family: Quicksand;
+  font-size: 32px;
+  line-height: 1.4;
+}
+.about__paragraphe {
+  font-family: Quicksand;
+  font-size: 20px;
+  line-height: 1.4;
+  margin-top: 23px;
 }/*# sourceMappingURL=main.css.map */
