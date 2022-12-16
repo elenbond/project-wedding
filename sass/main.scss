@@ -1,11 +1,14 @@
 @import 'utils/reset';
 @import 'utils/breakpoints';
+@import 'utils/colors';
 @import 'components/container';
 @import 'components/header';
-// @import 'components/fonts';
+@import 'components/fonts';
 @import 'components/logo';
 @import 'components/site-nav';
 @import 'components/button';
+@import 'components/hero';
+@import 'components/about';
 
 
 

@@ -14,80 +14,98 @@
 </head>
 <body>
     <header class="header">
-        <div class="container">
+        <div class="container container__header">
+            <a class="logo" href="#">logo</a>
             <nav class="site-nav">
-                <a class="logo" href="#">logo</a>
+                <!-- <a class="logo" href="#">logo</a>  -->                 <!--logo out of the tag NAV to -->
                 <ul class="site-nav__list">
-                    <li class="site-nav__item"><a class="site-nav__link" id="about" href="">About Us</a></li>
-                    <li class="site-nav__item"><a class="site-nav__link" href="">Home</a></li>
-                    <li class="site-nav__item"><a class="site-nav__link" href="">Services</a></li>
-                    <li class="site-nav__item"><a class="site-nav__link" href="">Blogs</a></li>
+                    <li class="site-nav__item"><a class="site-nav__link" id="about" href="#">Home</a></li>
+                    <li class="site-nav__item"><a class="site-nav__link" href="#">About Us</a></li>
+                    <li class="site-nav__item"><a class="site-nav__link" href="#">Services</a></li>
+                    <li class="site-nav__item"><a class="site-nav__link" href="#">Blogs</a></li>
                 </ul>
-                <button class="button button__header">GIFT FINDER</button>
+                
                 <!-- <button class="button__menu">
                     <svg heigth="20" width="20" aria-label="Переключатель мобильного меню">
                         <use class="mobile-menu" href="./images/symbol-defs#icon-menu.svg"></use>
                     </svg>
                 </button> -->
             </nav>
+            <button class="button button__header">GIFT FINDER</button>
         </div>
     </header>
     <main>
-        <section>
-            <div class="container">
-                <h1>Find a gift for your wife or girlfriend</h1>
-                <p>Struggling to find a gift for your wife or girlfriend? No problem!</p>
-                <button class="button">FIND GIFT NOW</button>
-                <img src="" alt="">
+        <section class="section hero">
+            <div class="container container__card">
+                <div class="hero__card">
+                    <h1 class="hero__title">Find a gift for your wife or girlfriend</h1>
+                    <p class="hero__paragraphe">Struggling to find a gift for your wife or girlfriend? No problem!</p>
+                    <button class="button button__hero">FIND GIFT NOW</button>
+                </div>
+                <div class="image-thumb">
+                    <img src="./images/hero1.jpg" alt="Happy couple" width="719">
+                </div>
             </div>
         </section>
-        <section>
-            <div class="container">
-                <img src="" alt="">
-                <h2>How we work</h2>
-                <p>We’ve actually already asked hundreds of women what they want, and made a database with the results. All you have to
-                    do is take our short survey that only takes seconds, and our proprietary algorithm will match you with a few perfect
-                    gift options.</p>
-                <button class="button">LEARN MORE</button>
+        <section class="section about">
+            <div class="container container__card">
+                <div class="image-thumb">
+                    <img src="./images/hero2.jpg" alt="Thanks card" width="721">
+                </div>
+                <div class="about__card">
+                    <h2 class="about__title">How we work</h2>
+                    <p class="about__paragraphe">We’ve actually already asked hundreds of women what they want, and made a database with the results. All you have to
+                        do is take our short survey that only takes seconds, and our proprietary algorithm will match you with a few perfect
+                        gift options.</p>
+                    <button class="button button__about">LEARN MORE</button>
+                </div>
             </div>
         </section>
-        <section>
-            <div class="container">
-                <h2>Gifts for all Occasions</h2>
-                <p>“Try our web app to find the best gifts for all occasions”</p>
-                <ul>
-                    <li>
-                        <img src="" alt="">
-                        <div>
-                            <h3>Birthday</h3>
-                            <p>See More</p>
+        <section class="section products">
+            <div class="container container-products">
+                <h2 class="section__title">Gifts for all Occasions</h2>
+                <p class="section__subtitle">“Try our web app to find the best gifts for all occasions”</p>
+                <ul class="products__list">
+                    <li class="products__item">
+                        <div class="products__image">
+                            <img src="./images/birthday.jpg" alt="Birthday presents" width="270">
+                        </div>
+                        <div class="products__descr">
+                            <h3 class="products__title">Birthday</h3>
+                            <span class="products__btn">See More</span>
                         </div>
                     </li>
-                    <li>
-                        <img src="" alt="">
-                        <div>
-                            <h3>Anniversary</h3>
-                            <p>See More</p>
+                    <li class="products__item">
+                        <div class="products__image">
+                            <img src="./images/anniversary.jpg" alt="Anniversary presents" width="270">
+                        </div>
+                        <div class="products__descr">
+                            <h3 class="products__title">Anniversary</h3>
+                            <span class="products__btn">See More</span>
                         </div>
                     </li>
-                    <li>
-                        <img src="" alt="">
-                        <div>
-                            <h3>Valentine's Day</h3>
-                            <p>See More</p>
+                    <li class="products__item">
+                        <div class="products__image">
+                            <img src="./images/valentinesday.jpg" alt="Valentine's Day presents" width="270">
+                        </div>
+                        <div class="products__descr">
+                            <h3 class="products__title">Valentine's Day</h3>
+                            <span class="products__btn">See More</span>
                         </div>
                     </li>
-                    <li>
-                        <img src="" alt="">
-                        <div>
-                            <h3>Christmas</h3>
-                            <p>See More</p>
+                    <li class="products__item">
+                        <div class="products__image">
+                            <img src="./images/cristmas.jpg" alt="Cristmas presents" width="270">
+                        </div>
+                        <div class="products__descr">
+                            <h3 class="products__title">Christmas</h3>
+                            <span class="products__btn">See More</span>
                         </div>
                     </li>
                 </ul>
             </div>
         </section>
-        <section>
+        <section class="section">
             <div class="container">
                 <h2>heading</h2>
                 <h3>Ready to get started?</h3>
@@ -102,12 +120,14 @@
                 </ul>
             </div>
         </section>
-        <section>
+        <section class="section">
             <div class="container">
                 <h2>Our Best Blogs Ever</h2>
                 <p>“Try our blog to find the best tips and tricks to select your gift”</p>
                 <div>
-                    <img src="" alt="">
+                    <div>
+                        <img src="./images/blogs.jpg" alt="" width="400">
+                    </div>
                     <div>
                         <p>Mr. John Doe</p>
                         <h3>The best way to wish your wife</h3>

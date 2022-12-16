@@ -1,0 +1,20 @@
+.hero{
+    &__card {
+        padding: 0;
+        padding-left: 162px;
+        padding-right: 126px;
+        background-color: map-get($color, 'hero-bcg-color');
+        // max-width: 1440px;
+    }
+    &__title {
+        font-family: map-get($text, 'second-text');
+        font-size: 56px;
+        line-height: 1.2;
+    }
+    &__paragraphe {
+        font-family: map-get($text, 'second-text');
+        font-size: 20px;
+        line-height: 1.4;
+        margin-top: 36px;
+    }
+}

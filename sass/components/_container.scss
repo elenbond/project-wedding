@@ -3,10 +3,6 @@
     padding-left: 15px;
     margin: 0 auto;
 
-    display: flex;
-    align-items: center;
-    // justify-content: center;
-
     @media screen and (min-width: 480px) {
         width: 480px;
     }
@@ -15,7 +11,26 @@
         width: 768px;
     }
     
-    @media screen and (min-width: 1200px) {
-        width: 1200px;
+    @media screen and (min-width: 1440px) {
+        width: 1440px;
+    }
+}
+
+.container__header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 80px;
+}
+.container__card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: map-get($color, 'hero-bcg-color');
+    @media screen and (max-width: 480px), (min-width: 480px) {
+        display: block;
+    }
+    @media screen and (min-width: 768px) {
+        display: flex;
     }
 }
