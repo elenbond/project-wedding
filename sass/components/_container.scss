@@ -1,8 +1,6 @@
 .container{
-    padding-right: 15px;
-    padding-left: 15px;
+    padding: 0 15px;
     margin: 0 auto;
-
     @media screen and (min-width: 480px) {
         width: 480px;
     }
@@ -12,7 +10,7 @@
     }
     
     @media screen and (min-width: 1440px) {
-        width: 1440px;
+        width: 1200px;
     }
 }
 
@@ -20,13 +18,26 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 1326px;
     padding-left: 80px;
+    padding-right: 35px;
+    @media screen and (min-width: 480px) {
+        
+    }
+    @media screen and (min-width: 768px) {
+        
+    }
+    @media screen and (min-width: 1280px) {
+        // width: 100%;
+        // width: 1440px;
+        // padding-left: 80px;
+        // padding-right: 35px;
+    }
+    // padding-left: 80px;
 }
 .container__card{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: map-get($color, 'hero-bcg-color');
+    padding: 0;
+    width: 1440px;
     @media screen and (max-width: 480px), (min-width: 480px) {
         display: block;
     }

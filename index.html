@@ -62,7 +62,7 @@
             </div>
         </section>
         <section class="section products">
-            <div class="container container-products">
+            <div class="container container__products">
                 <h2 class="section__title">Gifts for all Occasions</h2>
                 <p class="section__subtitle">“Try our web app to find the best gifts for all occasions”</p>
                 <ul class="products__list">
@@ -72,7 +72,7 @@
                         </div>
                         <div class="products__descr">
                             <h3 class="products__title">Birthday</h3>
-                            <span class="products__btn">See More</span>
+                            <a class="products__btn">See More</a>
                         </div>
                     </li>
                     <li class="products__item">
@@ -81,7 +81,7 @@
                         </div>
                         <div class="products__descr">
                             <h3 class="products__title">Anniversary</h3>
-                            <span class="products__btn">See More</span>
+                            <a class="products__btn">See More</a>
                         </div>
                     </li>
                     <li class="products__item">
@@ -90,7 +90,7 @@
                         </div>
                         <div class="products__descr">
                             <h3 class="products__title">Valentine's Day</h3>
-                            <span class="products__btn">See More</span>
+                            <a class="products__btn">See More</a>
                         </div>
                     </li>
                     <li class="products__item">
@@ -99,77 +99,112 @@
                         </div>
                         <div class="products__descr">
                             <h3 class="products__title">Christmas</h3>
-                            <span class="products__btn">See More</span>
+                            <a class="products__btn">See More</a>
                         </div>
                     </li>
                 </ul>
+                <!-- <ul class="products__list"> -->
+                <!-- </ul> -->
             </div>
         </section>
-        <section class="section">
+        <section class="section invite">
             <div class="container">
-                <h2>heading</h2>
-                <h3>Ready to get started?</h3>
-                <p>Sign up or contact us</p>
-                <ul>
-                    <li>
-                        <button>FIND GIFT NOW</button>
-                    </li>
-                    <li>
-                        <button>NOW IT WORKS</button>
-                    </li>
-                </ul>
-            </div>
-        </section>
-        <section class="section">
-            <div class="container">
-                <h2>Our Best Blogs Ever</h2>
-                <p>“Try our blog to find the best tips and tricks to select your gift”</p>
-                <div>
-                    <div>
-                        <img src="./images/blogs.jpg" alt="" width="400">
-                    </div>
-                    <div>
-                        <p>Mr. John Doe</p>
-                        <h3>The best way to wish your wife</h3>
-                        <p>Read More</p>
-                    </div>
+                <div class="invite__thumb">
+                    <h3 class="section__title invite__title--accented">Ready to get started?
+                        <br><span class="invite__title">Sign up or contact us</span></h3>
+                    <ul class="invite__list">
+                        <li class="invite__item">
+                            <button type="button" class="button button__invite button__invite--accented">FIND GIFT NOW</button>
+                        </li>
+                        <li class="invite__item">
+                            <button type="button" class="button button__invite">HOW IT WORKS</button>
+                        </li>
+                    </ul>
                 </div>
-                <ul>
-                    <li>
-                        <h3>Database to find the gifts for your girlfriend</h3>
-                        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                            dolore...</h4>
-                        <p>Read More</p>
-                    </li>
-                    <li>
-                        <h3>How Artificial Intelligence read your mind to find the best gift</h3>
-                        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                            dolore...</h4>
-                        <p>Read More</p>
-                    </li>
-                </ul>
+            </div>
+        </section>
+        <section class="section blogs">
+            <div class="container container__blogs">
+                <h2 class="section__title">Our Best Blogs Ever</h2>
+                <p class="section__subtitle blogs__tagline">“Try our blog to find the best tips and tricks to select your gift”</p>
+                <div class="blog__container">
+                    <div class="blogs__thumb">
+                        <div class="blogs__image">
+                            <img src="./images/blogs.jpg" alt="The bride" width="400">
+                        </div>
+                        <div class="blogs__descr">
+                            <p class="blogs__paragraphe">Mr. John Doe</p>
+                            <h3 class="blogs__title">The best way to wish <br> your wife</h3>
+                            <a class="blogs__link">Read More</a>
+                        </div>
+                    </div>
+                    <ul class="blogs__list">
+                        <li class="blogs__item">
+                            <h3 class="blogs__item-heading">Database to find the gifts for your girlfriend</h3>
+                            <h4 class="blogs__item-paragraphe">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                                dolore...</h4>
+                            <a class="blogs__item-link">Read More</a>
+                        </li>
+                        <li class="blogs__item">
+                            <h3 class="blogs__item-heading">How Artificial Intelligence read your mind to find the best gift</h3>
+                            <h4 class="blogs__item-paragraphe">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                                dolore...</h4>
+                            <a class="blogs__item-link">Read More</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </section>
     </main>
-    <footer>
-        <div class="container">
-            <a href="#">logo</a>
-            <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Service</li>
-                <li>Blog</li>
+    <footer class="footer">
+        <div class="container container__footer">
+            <ul class="footer__menu">
+                <li class="footer__item"> <a href="#" class="footer__link">Home</a> </li>
+                <li class="footer__item"> <a href="#" class="footer__link">About</a> </li>
+                <li class="footer__item"><a href="#" class="logo footer__logo">logo</a></li>
+                <li class="footer__item"> <a href="#" class="footer__link">Service</a> </li>
+                <li class="footer__item"> <a href="#" class="footer__link">Blog</a> </li>
             </ul>
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+            <ul class="sites__menu">
+                <li class="sites__item">
+                    <a href="" class="sites__link">
+                        <svg class="sites__image" width="40" height="40">
+                            <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="sites__item">
+                    <a href="" class="sites__link">
+                        <svg class="sites__image" width="40" height="40">
+                            <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="sites__item">
+                    <a href="" class="sites__link">
+                        <svg class="sites__image" width="40" height="40">
+                            <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="sites__item">
+                    <a href="" class="sites__link">
+                        <svg class="sites__image" width="40" height="40">
+                            <use href="./images/symbol-defs.svg#icon-youtube"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="sites__item">
+                    <a href="" class="sites__link">
+                        <svg class="sites__image" width="40" height="40">
+                            <use href="./images/symbol-defs.svg#icon-pinterest"></use>
+                        </svg>
+                    </a>
+                </li>
             </ul>
-            <ul>
-                <li>© 2010 — 2020</li>
-                <li>Privacy — Terms</li>
+            <ul class="terms__menu">
+                <li class="terms__item">© 2010 — 2022</li>
+                <li class="terms__item"><a class="terms__link" href="">Privacy — Terms</a></li>
             </ul>
         </div>
     </footer>

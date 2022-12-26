@@ -11,6 +11,8 @@
     border: 1px solid #F7941E;
     box-sizing: border-box;
     border-radius: 5px;
+    width: 200px;
+    height: 60px;
 }
 
 .button__header{
@@ -34,6 +36,11 @@
         // margin-left: 50px;
     }
 }
+.button__header:hover,
+.button__header:focus{
+    color: map-get($color, 'primary-bcg-color');
+    background-color: map-get($color, 'accent-color');
+}
 
 .button__menu{
     width: 40px;
@@ -49,16 +56,47 @@
     
 }
 .button__hero{
-    width: 200px;
-    height: 60px;
+    // width: 200px;
+    // height: 60px;
     color: map-get($color, 'primary-bcg-color');
     background-color: map-get($color, 'accent-color');
     margin-top: 52px;
 }
+.button__hero:hover,
+.button__hero:focus{
+    color: map-get($color, 'accent-color');
+    background-color: map-get($color, 'hero-bcg-color');
+}
 .button__about{
-    width: 200px;
-    height: 60px;
+    // width: 200px;
+    // height: 60px;
     margin-top: 35px;
     color: map-get($color, 'accent-color');
     background-color: map-get($color, 'hero-bcg-color');
+}
+.button__about:hover,
+.button__about:focus{
+    color: map-get($color, 'primary-bcg-color');
+    background-color: map-get($color, 'accent-color');
+}
+.button__invite{
+    height: 48px;
+    width: 200px;
+    color: map-get($color, 'primary-text-color');
+    background-color: map-get($color, 'accent-color');
+    border: 1px solid map-get($color, 'primary-text-color');
+    &--accented{
+        color: map-get($color, 'primary-bcg-color');
+        background-color: map-get($color, 'second-accent-color');
+    }
+}
+.button__invite:hover,
+.button__invite:focus{
+    color: map-get($color, 'primary-bcg-color');
+    border: 1px solid map-get($color, 'primary-bcg-color');
+}
+.button__invite--accented:hover,
+.button__invite--accented:focus {
+    color: map-get($color, 'accent-color');
+    border: 1px solid map-get($color, 'primary-text-color');
 }

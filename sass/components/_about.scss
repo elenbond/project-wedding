@@ -1,10 +1,12 @@
 .about {
     &__card {
-        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
         padding-left: 112px;
         padding-right: 166px;
         background-color: map-get($color, 'hero-bcg-color');
-        // max-width: 1440px;
     }
 
     &__title {

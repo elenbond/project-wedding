@@ -43,8 +43,13 @@
     font-style: sans-serif;
     font-weight: 400;
     line-height: 1.22;
+    color: map-get($color, 'primary-text-color');
     @media screen and (min-width: 768px) {
         padding-top: 25px;
         padding-bottom: 25px;
     }
+}
+.site-nav__link:hover,
+.site-nav__link:focus{
+    color: map-get($color, 'accent-color');
 }
